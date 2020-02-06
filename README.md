@@ -38,9 +38,9 @@ $ npm install --save-dev babel-plugin-class-properties
 | Name | Type | Default | Description |
 | :--: | :--: | :-----: | :---------- |
 | `all` | `{Boolean}` | `false` | Is enabled for all classes |
-| `classes` | `{Array}` | `[]` | Is enabled for specify classes |
-| `superClasses` | `{Array}` | `[]` | Is enabled for specify superClasses |
-| `props` | `{Array}` | `[]` | Class properties that need to be added |
+| `classes` | `{Array[String]}` | `[]` | Is enabled for specify classes |
+| `superClasses` | `{Array[String]}` | `[]` | Is enabled for specify superClasses |
+| `props` | `{Array[Object]}` | `[]` | Class properties that need to be added |
 
 #### `props`
 
